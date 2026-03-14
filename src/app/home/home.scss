@@ -1,0 +1,125 @@
+.container {
+    width: 100%;
+    display: grid;
+    place-self: center;
+    gap: 8px;
+
+
+}
+
+.page-name,
+.title,
+.description,
+.search {
+    place-self: center;
+}
+
+
+.title {
+    size: 52px;
+    color: #42307D;
+}
+
+.description {
+    font-weight: 400;
+    color: #6941C6;
+}
+
+.page-name:hover {
+    opacity: 0.7;
+}
+
+.page-name {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    background-color: #eee4fc;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.box {
+    max-width: 300px;
+    background-color: #FFFFFF;
+    padding: 24px ;
+    gap: 32px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+
+.line-follower {
+
+       size: 30px;
+    font-weight: 600;
+    color: #6941C6;
+}
+
+.line-follower-image {
+     width: 100%;
+    object-fit:contain;
+    height: 240px;
+}
+
+.big-title {
+    color: #101828;
+    font-weight: 600;
+    size: 24px;
+}
+
+.description {
+    size: 16px;
+    font-weight: 400;
+    color: #667085;
+
+}
+
+.profile-photo {
+    font-size: small;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    color: #C7B9DA;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-name {
+    font-weight: 500;
+    size: 14px;
+}
+
+.user-date {
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+}
+
+.box-container {
+    padding: 24px;
+    gap: 24px;
+}
+
+.box2 {
+    padding: 24px 32px;
+    gap: 32px;
+}
+
+.small-text {
+    font-weight: 600;
+    size: 14px;
+    color: #6941C6;
+}
