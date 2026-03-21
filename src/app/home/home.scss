@@ -3,8 +3,6 @@
     display: grid;
     place-self: center;
     gap: 8px;
-
-
 }
 
 .page-name,
@@ -48,25 +46,24 @@
 
 
 .box {
-    max-width: 300px;
+    width: 300px;
     background-color: #FFFFFF;
-    padding: 24px ;
+    padding: 24px;
     gap: 32px;
-    height: 600px;
     border-radius: 12px;
 }
 
 
 .line-follower {
 
-       size: 30px;
+    size: 30px;
     font-weight: 600;
     color: #6941C6;
 }
 
 .line-follower-image {
-     width: 100%;
-    object-fit:contain;
+    width: 100%;
+    object-fit: cover;
     height: 240px;
 }
 
@@ -123,3 +120,17 @@
     size: 14px;
     color: #6941C6;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .box-container {
+        flex-wrap: wrap;
+    }
+
+    .container{
+        gap: 0px!important
+    }
+
+} 
+
